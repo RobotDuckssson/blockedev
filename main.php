@@ -1,3 +1,7 @@
 <?php
 
-echo "hell world from Eclipse";
+$sayhej =  "hell world";
+
+?>
+
+<? echo $sayhej; ?>
