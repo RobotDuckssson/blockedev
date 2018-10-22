@@ -11,20 +11,21 @@
     <title>Signin Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor\twbs\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
   </head>
 
   <body class="text-center">
+  <?php include "nav.php"; ?>
     <div class="container"> 
     <?php for($i = 1; $i <= 13; $i++){ ?>
         <div class="row justify-content-md-center">
             <a class="col col-lg-2" href="#" style="border:solid 1px #ccc; padding: 20px; margin: 5px;">
                 <?php echo $i; ?>:1
             </a>
-            <a class="col col-lg-2" href="#" style="border:solid 1px #ccc; padding: 20px; margin: 5px;">
+            <a onclick="" class="col col-lg-2" href="#" style="border:solid 1px #ccc; padding: 20px; margin: 5px;">
                 <?php echo $i; ?>:2
             </a>
         </div>
