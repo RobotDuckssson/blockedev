@@ -11,7 +11,7 @@
     <title>BlockedEV</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
