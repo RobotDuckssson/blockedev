@@ -28,15 +28,17 @@
     <div class="container"> 
     <?php for($i = 1; $i <= 13; $i++){ ?>
         <div class="row justify-content-md-center">
-        <a onclick="" class="col col-lg-2" href="#" style="border:solid 1px #ccc; padding: 20px; margin: 5px;"
-                  data-toggle="popover" title="Popover title" 
-                  data-placement="right" 
-                  data-content="And here's some amazing content. It's very engaging. Right?">
-                <?php echo $i; ?>:1
+        <a onclick="" class="col col-lg-2" href="#" style="background-color: #FFA07A; border:solid 1px #ccc; padding: 20px; margin: 5px;"
+                  data-toggle="popover" title="In the orange" 
+                  data-html="true" 
+                  data-content="Parked time: 4:32<br />
+                                Started: 8:15">
+                <h3>LWY 610</h3>
+                <h4><?php echo $i; ?>:1</h4>
+                
             </a>
-            <a onclick="" class="col col-lg-2" href="#" style="border:solid 1px #ccc; padding: 20px; margin: 5px;"
-                  data-toggle="popover" title="Popover title" 
-                  data-placement="left" 
+            <a onclick="" class="col col-lg-2" href="#" style="background-color: #F08080;border:solid 1px #ccc; padding: 20px; margin: 5px;"
+                  data-toggle="popover" title="In the green" 
                   data-content="And here's some amazing content. It's very engaging. Right?">
                 <?php echo $i; ?>:2
             </a>
